@@ -1,0 +1,15 @@
+.idea/
+
+### Yii ###
+assets/*
+!assets/.gitignore
+protected/runtime/*
+protected/composer.lock
+!protected/runtime/.gitignore
+# protected/data/*.db
+# themes/classic/views/
+
+
+### Composer ###
+composer.phar
+protected/vendor/*

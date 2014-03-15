@@ -1,0 +1,7 @@
+{
+	"require": {
+		"yiisoft/yii": "dev-master",
+		"phpmailer/phpmailer": "dev-master",
+		"malyshev/yii-debug-toolbar": "dev-master"
+	}
+}

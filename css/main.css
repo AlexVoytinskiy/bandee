@@ -1,0 +1,38 @@
+html,
+body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+#wrap > .container {
+	padding: 15px 15px 60px;
+}
+div.main-header {
+	height: 220px;
+	padding: 52px 0 0;
+	background: #333;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+div.main-content {
+	padding: 15px 0 0;
+}
+/* Set the fixed height of the footer here */
+#footer {
+	height: 60px;
+	background-color: #333;
+}
+.container .credit {
+	margin: 20px 0;
+	color: #bbb;
+}
+#footer > .container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
