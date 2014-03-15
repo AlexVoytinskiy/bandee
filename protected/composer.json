@@ -4,4 +4,5 @@
 		"phpmailer/phpmailer": "dev-master",
 		"malyshev/yii-debug-toolbar": "dev-master"
 	}
+    
 }
